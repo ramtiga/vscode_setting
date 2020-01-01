@@ -1,0 +1,64 @@
+{
+    //ミニマップをfalse
+    "editor.minimap.enabled": false,
+    //wrap
+    "vim.whichwrap": "h,l,<,>,[,]",
+    "files.trimTrailingWhitespace": true,
+    // システムのclipboardにコピー
+    "vim.useSystemClipboard": true,
+    // 検索に:を入れる
+    "vim.cmdLineInitialColon": true,
+    "vim.hlsearch": true,
+    // 言わずもがなeasymotion
+    "vim.easymotion": true,
+    // カーソル上にあるワードを"*"で検索
+    "vim.visualstar": true,
+    // 諸々のctrlキーを使った操作が有効になる
+    "vim.useCtrlKeys": true,
+
+    "vim.leader": ";",
+    "editor.formatOnType": true,
+    "window.zoomLevel": 0,
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": false,
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["<C-k>"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "after": ["<Esc>"],
+            "commands": [
+                ":wq"
+            ]
+        },
+    ],
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "e"],
+            "commands": [
+                ":wq"
+            ]
+        },
+        {
+            "before": [">"],
+            "after": ["$", "a"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-k>"],
+            "after": ["<Esc>"],
+        }
+    ],
+    "explorer.confirmDelete": false,
+
+    "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+    "workbench.iconTheme": "material-icon-theme",
+
+
+}
